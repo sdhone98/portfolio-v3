@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 * {
   margin: 0;
   padding: 0;
@@ -11,11 +10,10 @@
 }
 
 :root {
-  --background-color : white;
-  --foreground-color : blue;
-  --primary-text-color : black;
-  --secondary-text-color : white;
+  --background-color: white;
+  --foreground-color: blue;
+  --primary-text-color: black;
+  --secondary-text-color: white;
   --toggle-bg: lightyellow;
   --toggle-fg: darkyellow;
-
 }

@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'DM';
+    src: url('./static/DMSans-Regular.ttf');
+    font-weight: 400;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'DM Bold';
+    src: url('./static/DMSans-Bold.ttf');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM SemiBold';
+    src: url('./static/DMSans-SemiBold.ttf');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Light';
+    src: url('./static/DMSans-Light.ttf');
+    font-weight: 400;
+    font-display: swap;
+}

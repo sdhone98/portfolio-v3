@@ -1,26 +1,20 @@
-import {Flowbite} from "flowbite-react";
 import Home from "./components/Hero.jsx";
-
-import './App.css'
+import "./App.css";
 import Experience from "./components/Experience.jsx";
+import Header from "./components/Header.jsx";
+import Projects from "./components/Projects.jsx";
+import Contact from "./components/Contact.jsx";
 
 function App() {
-
   return (
-      <>
-          <div className='flex flex-col items-center justify-center'>
-
-          <Flowbite>
-              {/*<Header />*/}
-              <Home/>
-              <Experience/>
-
-          </Flowbite>
-          </div>
-
-
-      </>
-  )
+    <>
+      <Header />
+      <Home />
+      <Experience />
+      <Projects />
+      <Contact />
+    </>
+  );
 }
 
-export default App
+export default App;
