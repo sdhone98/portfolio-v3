@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import ProjectCard from "./ProjectCard.jsx";
+import projectData from "../resources/allData.json";
 
 const Projects = () => {
   const dataSet = [
@@ -13,9 +14,8 @@ const Projects = () => {
     "CDC1FF",
     "FFB26F",
   ];
-  const paraText = `Features from the 'AI overviews and more' Labs experiment may appear on the search results page in the Google app, selected mobile browsers and on Chrome desktop when you turn on this experience.
-This experiment includes AI overviews on more Google searches, and may also include other generative AI experiences in Search. Disabling this experiment will not turn off all AI overviews in Search.`;
 
+  const dataSet1 = projectData.experience;
   const [currentCardIndex, setCurrentCardIndex] = useState(0);
   const [isLeftButtonOn, setIsLeftButtonOn] = useState(false);
   const [isRightButtonOn, setIsRightButtonOn] = useState(false);
@@ -32,17 +32,17 @@ This experiment includes AI overviews on more Google searches, and may also incl
 
   useEffect(() => {
     setIsLeftButtonOn(currentCardIndex === 0);
-    setIsRightButtonOn(currentCardIndex === dataSet.length - 1);
+    setIsRightButtonOn(currentCardIndex === dataSet1.length - 1);
   }, [currentCardIndex]);
 
   return (
-    <div className="w-full bg-lime-100 flex flex-col items-center justify-center">
+    <div className="w-full h-[50vh] flex flex-col items-center justify-center">
       <div className="w-full h-28 flex items-center px-96">
         <h2 className="font-[DM] font-bold text-3xl">Projects</h2>
       </div>
       <ProjectCard
+        projectDetails={dataSet1[currentCardIndex]}
         currentCardIndex={currentCardIndex}
-        paraText={paraText}
         backgroundColor={dataSet[currentCardIndex]}
         onLeftClick={leftClick}
         onRightClick={rightClick}

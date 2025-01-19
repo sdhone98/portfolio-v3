@@ -9,7 +9,14 @@ export default {
     flowbite.content(),
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        "dm": ["DM", "sans-serif"],
+        "dm-bold": ["DMBold", "sans-serif"],
+        "dm-semi-bold": ["DMSemiBold", "sans-serif"],
+        "dm-light": ["DMLight", "sans-serif"],
+      },
+    },
   },
   plugins: [
     flowbite.plugin(),

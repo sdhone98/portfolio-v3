@@ -12,7 +12,7 @@ const Header = () => {
     <div className="w-full h-16 flex flex-col items-center justify-center pt-4 p-2 bg-white rounded-b-2xl fixed top-0">
       <span className="w-full flex justify-between items-center px-4">
         <div className="flex justify-between items-center gap-1">
-          <h3 className="pl-4 font-['DM_SemiBold'] text-lg cursor-pointer">
+          <h3 className="pl-4 font-dm-semi-bold text-lg cursor-pointer">
             Sagar Dhone
           </h3>
         </div>

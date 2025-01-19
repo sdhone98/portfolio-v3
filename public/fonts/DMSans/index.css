@@ -7,21 +7,21 @@
 
 
 @font-face {
-    font-family: 'DM Bold';
+    font-family: 'DMBold';
     src: url('./static/DMSans-Bold.ttf');
     font-weight: 400;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'DM SemiBold';
+    font-family: 'DMSemiBold';
     src: url('./static/DMSans-SemiBold.ttf');
     font-weight: 400;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'DM Light';
+    font-family: 'DMLight';
     src: url('./static/DMSans-Light.ttf');
     font-weight: 400;
     font-display: swap;

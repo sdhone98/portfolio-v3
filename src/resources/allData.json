@@ -1,0 +1,139 @@
+{
+  "experience": [
+    {
+      "name": "Sampavah",
+      "designation": "Solution Analyst",
+      "duration": "Jun 2024 - Current",
+      "imageName": "Sampravah.jpg",
+      "techStack": [
+        "Django",
+        "React",
+        "PostgresSQL",
+        "Docker",
+        "Kubernetes",
+        "Kafka"
+      ],
+      "_description": [
+        "Developed a comprehensive dashboard application allowing multiple users to monitor and review each process from anywhere, improving visibility and oversight.",
+        "Created multiple reports and dashboards tailored to user roles, enabling personalized access to relevant information.",
+        "Enhanced process efficiency by 40% through real-time data analytics and performance tracking.",
+        "Facilitated detailed process information access for upper management, providing a complete overview of all plant operations.",
+        "Improved decision-making and operational transparency across Tata Motors plants by delivering an integrated and user-friendly dashboard solution."
+      ],
+      "description": "Developed a comprehensive dashboard application allowing multiple users to monitor and review each process from anywhere, improving visibility and oversight. Created multiple reports and dashboards tailored to user roles, enabling personalized access to relevant information. Enhanced process efficiency by 40% through real-time data analytics and performance tracking. Facilitated detailed process information access for upper management, providing a complete overview of all plant operations. Improved decision-making and operational transparency across Tata Motors plants by delivering an integrated and user-friendly dashboard solution."
+    },
+    {
+      "name": "Product Configurator",
+      "designation": "Solution Analyst",
+      "duration": "Dec 2022 - Current",
+      "imageName": "ProductConfigurator.jpg",
+      "techStack": [
+        "Django",
+        "React",
+        "PostgresSQL",
+        "Docker",
+        "Kubernetes",
+        "Kafka"
+      ],
+      "_description": [
+        "Developed a Product Configurator solution for Tata Motors to adopt new automobile IPMS 4.0 standards.",
+        "Utilized technology to create a recipe for manufacturing cars, adhering to standardized processes.",
+        "Implemented segregation of each part as it occurs on the actual assembly line.",
+        "Generated Bill of Materials (BOM) with detailed data on parts required for specific car models.",
+        "Sequenced each manufacturing process based on BOM to minimize assembly line issues.",
+        "Designed unique configurations for each station in the assembly line, ensuring smooth operations.",
+        "Significantly increased production quantity and reduced errors and line stoppage rates.",
+        "Centralized configuration management for all Tata Motors plants, enabling seamless replication across facilities.",
+        "Provided a one-time configuration setup, allowing repeated use across multiple manufacturing cycles."
+      ],
+      "description": "Developed a Product Configurator solution for Tata Motors to adopt new automobile IPMS 4.0 standards. Utilized technology to create a recipe for manufacturing cars, adhering to standardized processes. Sequenced each manufacturing process based on BOM to minimize assembly line issues. Designed unique configurations for each station in the assembly line, ensuring smooth operations. Significantly increased production quantity and reduced errors and line stoppage rates. Centralized configuration management for all Tata Motors plants, enabling seamless replication across facilities. Provided a one-time configuration setup, allowing repeated use across multiple manufacturing cycles."
+    },
+    {
+      "name": "Corporate Governance",
+      "designation": "Solution Analyst",
+      "duration": "Sep 2022 - Nov 2022",
+      "imageName": "CorporateGovernace.jpg",
+      "techStack": [
+        "SpringBoot",
+        "Angular",
+        "Oracle",
+        "Jenkins",
+        "Docker",
+        "Sonar Cube"
+      ],
+      "_description": [
+        "Led Corporate Governance overhaul at NSE India, emphasizing transparency and accountability.",
+        "Implemented governance frameworks adhering to regulations and international standards.",
+        "Developed and enforced policies to uphold ethics, mitigate risks, and ensure compliance.",
+        "Defined clear roles for effective decision-making and oversight.",
+        "Conducted audits to assess governance practices and ensure compliance.",
+        "Cultivated integrity and accountability through targeted training and communication.",
+        "Enhanced investor confidence and market integrity through robust governance.",
+        "Aligned corporate objectives with stakeholder interests for sustainability.",
+        "Recognized for excellence in governance, bolstering NSE India's reputation."
+      ],
+      "description": "Led Corporate Governance overhaul at NSE India, emphasizing transparency and accountability. Implemented governance frameworks adhering to regulations and international standards. Developed and enforced policies to uphold ethics, mitigate risks, and ensure compliance. Defined clear roles for effective decision-making and oversight. Conducted audits to assess governance practices and ensure compliance. Cultivated integrity and accountability through targeted training and communication. Enhanced investor confidence and market integrity through robust governance. Aligned corporate objectives with stakeholder interests for sustainability. Recognized for excellence in governance, bolstering NSE India's reputation."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Expense Tracker",
+      "date": "Jan 2024",
+      "url": "https://github.com/sdhone98/ExpenseTracker",
+      "hostUrl": "https://sagar-expense-tracker.netlify.app/",
+      "techStack": ["React", "JavaScript", "SCSS"],
+      "imageBackground": "ExpenseTracker.jpg"
+    },
+    {
+      "name": "To Do List",
+      "date": "Jul 2023",
+      "url": "https://github.com/sdhone98/To-Do-List",
+      "techStack": ["React", "TypeScript", "CSS"],
+      "imageBackground": "ToDoList.jpg"
+    },
+    {
+      "name": "Quiz",
+      "date": "Aug 2023",
+      "url": "https://github.com/SagarSankeySolutions/React-Quiz",
+      "techStack": ["React", "JavaScript", "SCSS"],
+      "imageBackground": "Quiz.jpg"
+    },
+    {
+      "name": "Wave Me",
+      "date": "May 2024",
+      "url": "https://github.com/sdhone98/whatsapp-message-web",
+      "hostUrl": "https://wa-msg.netlify.app",
+      "techStack": ["React", "JavaScript", "SCSS", "HTML", "CSS"],
+      "imageBackground": "WaMsg.jpg"
+    },
+    {
+      "name": "Spotify Song Downloder",
+      "date": "Nov 2023",
+      "url": "https://github.com/sdhone98/SpotifyDownloder",
+      "techStack": ["Python"],
+      "imageBackground": "SpotifySongDownloader.jpg"
+    },
+    {
+      "name": "Library Management",
+      "date": "Dec 2023",
+      "url": "https://github.com/sdhone98/LibraryManagement",
+      "techStack": ["Kotlin"],
+      "imageBackground": "LibraryManagement.jpg"
+    },
+    {
+      "name": "Portfolio",
+      "date": "Mar 2024",
+      "url": "https://github.com/sdhone98/portfolio-v2",
+      "hostUrl": "https://sagar-dhone-portfolio.netlify.app",
+      "techStack": ["React", "JavaScript", "SCSS", "HTML", "CSS"],
+      "imageBackground": "Portfolio.jpg"
+    },
+    {
+      "name": "Send WhatsApp MSG",
+      "date": "Oct 2023",
+      "url": "https://github.com/sdhone98/WhatsAppMessage",
+      "techStack": ["Android", "Java"],
+      "imageBackground": "WhatsAppMsg.jpg"
+    }
+  ]
+}

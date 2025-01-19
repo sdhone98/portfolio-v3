@@ -4,6 +4,7 @@ import Experience from "./components/Experience.jsx";
 import Header from "./components/Header.jsx";
 import Projects from "./components/Projects.jsx";
 import Contact from "./components/Contact.jsx";
+import BottomTab from "./components/BottomTab.jsx";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Experience />
       <Projects />
       <Contact />
+        <BottomTab/>
     </>
   );
 }
