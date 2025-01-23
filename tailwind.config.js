@@ -11,10 +11,13 @@ export default {
   theme: {
     extend: {
       fontFamily: {
+        "dm-thin": ["DMThin", "sans-serif"],
+        "dm-light": ["DMLight", "sans-serif"],
         "dm": ["DM", "sans-serif"],
         "dm-bold": ["DMBold", "sans-serif"],
         "dm-semi-bold": ["DMSemiBold", "sans-serif"],
-        "dm-light": ["DMLight", "sans-serif"],
+        "dm-extra-bold": ["DMExtraBold", "sans-serif"],
+        "dm-black": ["DMBlack", "sans-serif"]
       },
     },
   },

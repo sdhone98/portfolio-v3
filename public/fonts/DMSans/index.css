@@ -1,4 +1,18 @@
 @font-face {
+    font-family: 'DMThin';
+    src: url('./static/DMSans-Thin.ttf');
+    font-weight: 100;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DMLight';
+    src: url('./static/DMSans-Light.ttf');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
     font-family: 'DM';
     src: url('./static/DMSans-Regular.ttf');
     font-weight: 400;
@@ -16,13 +30,21 @@
 @font-face {
     font-family: 'DMSemiBold';
     src: url('./static/DMSans-SemiBold.ttf');
-    font-weight: 400;
+    font-weight: 600;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'DMLight';
-    src: url('./static/DMSans-Light.ttf');
-    font-weight: 400;
+    font-family: 'DMExtraBold';
+    src: url('./static/DMSans-ExtraBold.ttf');
+    font-weight: 800;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'DMBlack';
+    src: url('./static/DMSans-Black.ttf');
+    font-weight: 900;
+    font-display: swap;
+}
+

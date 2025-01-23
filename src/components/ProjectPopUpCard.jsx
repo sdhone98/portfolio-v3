@@ -28,7 +28,7 @@ const ProjectPopUpCard = ({
 
   const techStackList = projectDetails.techStack;
   return (
-    <div className="flex flex-col items-center justify-center h-screen">
+    <div className="h-fit flex flex-col items-center justify-center">
       {isOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div
