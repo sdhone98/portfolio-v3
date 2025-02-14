@@ -10,6 +10,15 @@ export default {
   ],
   theme: {
     extend: {
+      animation: {
+        scroll: "scroll 10s linear infinite",
+      },
+      keyframes: {
+        scroll: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-50%)" },
+        },
+      },
       fontFamily: {
         "dm-thin": ["DMThin", "sans-serif"],
         "dm-light": ["DMLight", "sans-serif"],

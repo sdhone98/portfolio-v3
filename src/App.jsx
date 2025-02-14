@@ -5,14 +5,16 @@ import Header from "./components/Header.jsx";
 import Projects from "./components/Projects.jsx";
 import Contact from "./components/Contact.jsx";
 import BottomTab from "./components/BottomTab.jsx";
+import TechStack from "./components/TechStacks.jsx";
 
 function App() {
   return (
     <>
       <Header />
       <Home />
-      <Experience />
       <Projects />
+      <Experience />
+      <TechStack />
       <Contact />
       <BottomTab />
     </>

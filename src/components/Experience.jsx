@@ -8,9 +8,10 @@ const Experience = () => {
       <div className="w-full h-28 flex items-center px-96">
         <h2 className="font-[DM] font-bold text-3xl">Experience</h2>
       </div>
-      <div className={"flex items-center justify-between flex-wrap px-96"}>
+      <div className={"w-3/5 grid grid-cols-3 gap-6 place-items-center"}>
         {/* eslint-disable-next-line react/jsx-key */}
         {projectDataSet.map((obj) => (
+            // eslint-disable-next-line react/jsx-key
           <ExperienceCard projectDetails={obj} />
         ))}
         {/*<ExperienceCard />*/}
